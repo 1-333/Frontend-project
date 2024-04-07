@@ -1,0 +1,272 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+
+.logo img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(19, 19, 19);
+
+}
+
+.right ul{
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+}
+.right ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centre{
+    display: block;
+    margin-right: auto;
+    width: 10%;
+}
+
+.heading{
+    margin-top: 5vh;
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 55px;
+    font-weight: 750;
+}
+
+.sub-heading {
+    margin-top: 1vh;
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.product {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.product-category {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 100px;
+    padding: 0 10vw;
+}
+
+.collection-category{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding: 0 10vw;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.product-card {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.product-card-2{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.product-card-3{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.product-card-4{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.product-card-5{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.product-card-6{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.product-card-2 img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.product-card-3 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.product-card-4 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.product-card-5 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.product-card-6 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.product-name {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.add-to-cart {
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.collection-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.collection {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.collection img {
+    width: 50%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.collection-title {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px ;
+    text-align: center;
+    width: 100vw;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 400;
+}
